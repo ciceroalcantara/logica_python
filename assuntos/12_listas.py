@@ -126,9 +126,22 @@ print("Qaul a maior idade?", max(idades))
 
 # %%
 
-y = [i for i in range[1, 101]]
+# List comprehension, são listas criadas a partir de um laço 'for'
+
+y = [i for i in range(1, 101)] # 'i' é o valor que vai ser colocado na lista pelo 'for'
 y
 
 # %%
 
+def numero_par(x):
+    return x % 2 == 0
 
+z = [numero_par(i) for i in range(1, 101)]
+z
+
+# %%
+
+# So quero os numero de 1 a 100 considerando so quem é par
+
+w = [i for i in range(1, 101) if numero_par(i)] # So considera o 'i' caso a função seja verdade
+w
