@@ -475,17 +475,3 @@ else: # 'Else' do 'for'
     print("Suas tentativas acabaram!")
 
 print("Número sorteado", numero_sorteado)
-
-# %%
-
-# Construa um programa que realiza o sorteio de um número entre 1 e 15.
-
-# O usuário terá 3 chances de acertar o valor.
-
-# A cada tentativa você deve informar se o chute e maior ou menor que o número sorteado.
-
-# Caso o usuário acerte, dê os parabéns.
-
-# Faça com o streamlit.
-
-
